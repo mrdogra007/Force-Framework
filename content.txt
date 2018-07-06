@@ -1,0 +1,28 @@
+Force Framework
+A lightweight and fast HTML/CSS Framework designed for the Designers and Developers to compete with Performance by Nishant Dogra #ForceFramework
+
+/* AUTHOR */
+https://twitter.com/mrdogra007
+
+/* Table of content */
+Full width card - Force Framework 
+Half width card - Force Framework 
+One third width card - Force Framework 
+Colored background card - Force Framework 
+Typography heading tags - Force Framework 
+Typography for paragpraph tags - Force Framework
+Typography for paragpraph with heading tags - Force Framework
+Style for badges - Force Framework
+Style for buttons - Force Framework
+Style for alert notifications - Force Framework
+Style for alert notifications with subtext - Force Framework 
+Style for Responsive tables - Force Framework
+Style for Responsive tables with colored header background - Force Framework
+Style for Responsive tables with orange colored header background - Force Framework
+Style for Responsive tables with colored heading text - Force Framework
+Style for pagination - Force Framework
+Style for compact pagination - Force Framework
+Style for compact orange pagination - Force Framework 
+Style for unordered list - Force Framework
+Style for ordered list - Force Framework
+Style for unordered and ordered list - Force Framework

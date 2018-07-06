@@ -1,0 +1,8 @@
+{
+    "icons": [{
+        "src": "http://cloud.dograsweblog.com/force-framework/logo-icons/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "http://dograsweblog.com/drive/force-framework/"
+}
