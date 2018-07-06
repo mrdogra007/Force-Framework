@@ -1,0 +1,36 @@
+/* 
+CSS Style sheet (media)
+Ver. 1.1
+Author: Nishant Dogra
+Initial built: 09-10-2017
+Updated: 28-06-2018
+*/
+
+@media only screen and (max-width: 1999px)  {
+	.container { max-width: 1600px;}
+}
+
+@media only screen and (max-width: 1440px)  {
+	.container { max-width: 1260px;}
+}
+
+@media only screen and (max-width: 1200px)  {
+	.container { max-width: 96%;}
+	
+}
+
+@media only screen and (max-width: 768px)  {
+	.container { max-width: 100%;}
+	.vertical, .verticals { margin-left: 4%; }
+	.vertical:first-child, .verticals:first-child { margin-left: 0; }
+	.one.vertical, .one.verticals,
+	.two.verticals, .three.verticals, .four.verticals, .five.verticals, .six.verticals, .seven.verticals, .eight.verticals, .nine.verticals, .ten.verticals, .eleven.verticals, .twelve.verticals, .one-third.vertical, .two-thirds.vertical, .one-half.vertical { width: 100%; margin: 0;}
+	.card, .card.half, .card.one-third, .card.one-fourth { display: block;}
+}
+
+@media only screen and (max-width: 549px)  {
+	
+}
+
+@media only screen and (max-width: 419px)  {
+}
