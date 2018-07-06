@@ -3,7 +3,7 @@
 ![Quotes By Dogra](http://cloud.dograsweblog.com/force-framework/logo-icons/120.png)
 
 ```markdown
-A lightweight and fast HTML/CSS Framework designed for the Designers &amp; Developers to compete with Performance.
+A lightweight and fast HTML/CSS Framework designed for the Designers & Developers to compete with Performance.
 ```
 
 ## Live Preview
