@@ -36,12 +36,6 @@ http://dograsweblog.com/drive/force-framework/
 
 https://twitter.com/mrdogra007
 
-https://github.com/mrdogra007
-
-https://www.behance.net/mrdogra007
-
-http://codepen.io/mrdogra007
-
 Copyright and license
 Copyright 2017-2018. 
 
