@@ -3,7 +3,7 @@ CSS Style sheet
 Ver. 1.2
 Author: Nishant Dogra
 Initial built: 09-10-2017
-Updated: 30-06-2018
+Updated: 19-08-2018
 */
 
 /* Force Framework Roboto Font import */
@@ -175,8 +175,7 @@ h6, .h6 { font-size: 16px; line-height: 1.6; font-weight: 400;}
 .violet { color: #9162e4;} .bg-violet { background-color: #9162e4 !important; color: #ffffff;}
 .pink { color: #ff6090;} .bg-pink { background-color: #ff6090 !important; color: #ffffff;}
 .alt-blue { color: #7c9cad;} .bg-alt-blue { background-color: #7c9cad !important; color: #ffffff;}
-.bg-pink:hover, .bg-pink:focus, .bg-pink:active, .bg-purple:hover, .bg-purple:focus, .bg-purple:active,
-.bg-violet:hover, .bg-violet:focus, .bg-violet:active, .bg-alt-blue:hover, .bg-alt-blue:focus, .bg-alt-blue:active { color: #ffffff !important;}
+.bg-pink:hover, .bg-pink:focus, .bg-pink:active, .bg-purple:hover, .bg-purple:focus, .bg-purple:active, .bg-orange:hover, .bg-orange:focus, .bg-orange:active, .bg-violet:hover, .bg-violet:focus, .bg-violet:active, .bg-alt-blue:hover, .bg-alt-blue:focus, .bg-alt-blue:active { color: #ffffff !important; -moz-box-shadow: inset 0 0 30px rgba(0,0,0,.1); -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.1); box-shadow: inset 0 0 30px rgba(0,0,0,.1);}
 
 .gray-pale { color: #526273;}
 .gray-dark { color: #444444;}
