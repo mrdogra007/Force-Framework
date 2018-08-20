@@ -1,0 +1,10 @@
+/* 
+CSS Style sheet
+Ver. 1.4
+Author: Nishant Dogra
+Initial built: 09-10-2017
+Updated: 20-08-2018
+*/
+
+/* Force Framework theme styles */
+.fixed-action { position: fixed; width: 25%; max-width: 280px; height: 100vh; background: #ffffff; padding: 20px; z-index: 9999; top: 100px; overflow: scroll;}
