@@ -32,6 +32,12 @@ http://dograsweblog.com/drive/force-framework/
 * Style for ordered list
 * Style for unordered and ordered list
 
+## Plugins added
+* Breadcrumb style modified css 
+* Pagination style modified css
+* Image as checkbox plugin style
+
+
 ### Creator: Nishant Dogra
 
 https://twitter.com/mrdogra007
