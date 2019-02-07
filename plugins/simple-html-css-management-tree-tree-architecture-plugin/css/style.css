@@ -1,0 +1,32 @@
+/* 
+CSS Style sheet
+Ver. 1.0
+Author: Nishant Dogra
+Contact: https://twitter.com/mrdogra007
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+* { padding: 0; margin: 0;}
+body { font-size: 14px; font-family: Roboto;}
+h1 { text-align: center; margin-top: 30px; margin-bottom: 50px; }
+.mgt-container { flex-grow: 1; overflow: auto; justify-content: center;}
+.basic-style { background-color: #EFE6E2; }
+.mgt-item-parent p { font-weight: 400; color: #DE5454;}
+
+.management-tree { background-color: #ffffff; font-family: inherit; padding: 40px;}
+.management-tree .person { text-align: center;}
+.management-tree .person img { max-width: 80px; border: 2px solid #d7d7d7; border-radius: 50%; overflow: hidden; background-color: #f7f7f7;}
+.management-tree .person p.name { background-color: #f7f7f7; padding: 5px; font-size: 12px; font-weight: normal; color: #676767; margin: 0; position: relative;}
+.management-tree .person p.name:before { content: ''; position: absolute; width: 2px; height: 5px; background-color: #d7d7d7; left: 50%; top: 0; transform: translateY(-100%);}
+
+.mgt-wrapper { display: flex;}
+.mgt-wrapper .mgt-item { display: flex; flex-direction: column; margin: auto;}
+.mgt-wrapper .mgt-item .mgt-item-parent { margin-bottom: 50px; position: relative; display: flex; justify-content: center;}
+.mgt-wrapper .mgt-item .mgt-item-parent:after { position: absolute; content: ''; width: 2px; height: 25px; bottom: 0; left: 50%; background-color: #d7d7d7; transform: translateY(100%);}
+.mgt-wrapper .mgt-item .mgt-item-children { display: flex; justify-content: center;}
+.mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child { padding: 0 15px; position: relative;}
+.mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child:before, .mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child:after { content: ''; position: absolute; background-color: #d7d7d7; left: 0;}
+.mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child:before { left: 50%; top: 0; transform: translateY(-100%); width: 2px; height: 25px;}
+.mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child:after { top: -23px; transform: translateY(-100%); height: 2px; width: 100%;}
+.mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child:first-child:after { left: 50%; width: 50%;} 
+.mgt-wrapper .mgt-item .mgt-item-children .mgt-item-child:last-child:after { width: calc(50% + 1px);}
