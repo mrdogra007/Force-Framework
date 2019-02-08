@@ -1,0 +1,17 @@
+body{ font-family: Roboto; font-size: 16px; line-height: 1.5;}
+h1 { text-align: center; margin-top: 50px; margin-bottom: 30px;}
+.menu-parent { background: #323232; color: #ffffff; text-align: left;}
+.menu-parent.style1 { background: #1e7cdc;}
+.menu-parent.style2 { background: #f77528;}
+.menu-parent.style3 { background: #50bd0b;}
+.menu-parent * { margin: 0; padding: 0;}
+.menu-parent li { list-style: none;}
+.menu-parent ul ul { display: none;}
+.menu-parent li.active>ul { display: block;}
+.menu-parent > ul > li > a { position: relative; display: block; background: #003040; background: linear-gradient(#003040, #002535); padding: 0 30px; font-size: 16px; line-height: 4; color: #ffffff; text-decoration: none;}
+.menu-parent > ul > li > a .fa { margin-right: 8px;}
+.menu-parent ul ul li a { color: #ffffff; text-decoration: none; font-size: 16px; line-height: 4; display: block; padding: 0 30px; position: relative;}
+.menu-parent ul ul li a:hover { background: #003545;}
+.menu-parent ul ul ul { background: rgba(0,0,0,.1); padding: 0;}
+.menu-parent a:not(:only-child):after { position: absolute; right: 20px; content: "\f067"; top: -6px; font-size: 20px; font-family: FontAwesome;}
+.menu-parent .active>a:not(:only-child):after { content: "\f068"; top: -6px; font-size: 20px; font-family: FontAwesome;}
