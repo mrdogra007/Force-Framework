@@ -3,13 +3,16 @@
 body { margin: 0; padding: 0; background: #232323; color: #cdcdcd; font-family: 'Roboto', sans-serif;}
 a { text-decoration: none; color: #232323; transition: color 0.3s ease;}
 a:hover, a:active, a.active { color: #ed8300;}
-.nav-data { position: absolute; width: 200px; height: 100vh; margin: -100px 0 0 -50px; padding: 25px; padding-top: 125px; background: #ededed; list-style-type: none; -webkit-font-smoothing: antialiased;}
-.nav-data li { padding: 10px 0; font-size: 22px;}
+nav { float: left; width: 0; height: 0;}
+.nav-data { position: absolute; width: 240px; margin: -100px 0 0 -50px; padding: 125px 10px 40px; background: #ededed; list-style-type: none;}
+.nav-data li { padding: 10px 25px; font-size: 16px;}
+.nav-data li a { padding: 0;} /* padding: 25px 50px */
+.nav-data .separator { padding: 0; border-bottom: 3px solid #e6e7ea; cursor: default; margin: 6px 0;}
 #clickNav { display: block; position: relative; top: 50px; left: 50px; z-index: 1;}
 #clickNav input { display: block; width: 40px; height: 32px; position: absolute; top: -7px; left: -5px; cursor: pointer; opacity: 0; z-index: 9999; -webkit-touch-callout: none;}
 #clickNav input:checked ~ ul { -webkit-transform: none; transform: none;}
 
-#clickNav span { display: block; width: 33px; height: 4px; margin-bottom: 5px; position: relative; background: #cdcdcd; border-radius: 3px; z-index: 1;}
+#clickNav span { display: block; width: 33px; height: 4px; margin-bottom: 5px; position: relative; background: #f89c2b; border-radius: 3px; z-index: 1;}
 #clickNav span {
 -webkit-transform-origin: 4px 0px;
 transform-origin: 4px 0px;
