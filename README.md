@@ -35,8 +35,10 @@ http://dograsweblog.com/drive/force-framework/
 ## Plugins added
 * Breadcrumb style modified css 
 * Pagination style modified css
-* Image as checkbox plugin style
-
+* Image as checkbox plugin
+* Binary tree/ Management tree plugin
+* Hamburger navigation plugin
+* Side navigation plugin
 
 ### Creator: Nishant Dogra
 https://twitter.com/mrdogra007
