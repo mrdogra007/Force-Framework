@@ -1,7 +1,8 @@
+body { background: #141f31;}
 .tab-data { display: none;}
 .tab-data.active { display: block;}
-.alert { width: 100%; box-shadow: 0px 0px 40px 0px rgba( 0, 0, 0, .20 ); border: none; margin-bottom: 20px; padding: 15px;}
-h1 { font-size: 24px; text-align: center; font-weight: bold;}
+.alert { background: #ffffff; width: 100%; box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, .10 ); border: none; border-radius: 10px; margin-bottom: 20px; padding: 15px;}
+h1 { font-size: 32px; margin-top: 60px; margin-bottom: 40px; text-align: center; font-weight: bold; color: #ffffff;}
 h3.leadh3 { display: inline-block; padding: 0 15px; margin-top: 25px; margin-bottom: 18px; font-size: 20px;}
 .stats-blk { padding: 0 15px; margin-bottom: 20px;}
 .stats-blk h4 { font-size: 16px; margin-bottom: 5px;}
@@ -15,7 +16,15 @@ h3.leadh3 { display: inline-block; padding: 0 15px; margin-top: 25px; margin-bot
 .tab-listing li a:focus { width: 24px; opacity: 1;}
 .tab-data { -webkit-animation: fadeout 2s; -moz-animation: fadeout 2s; -ms-animation: fadeout 2s; -o-animation: fadeout 2s; animation: fadeout 2s;} 
 .tab-data.active { -webkit-animation: fadein 2s; -moz-animation: fadein 2s; -ms-animation: fadein 2s; -o-animation: fadein 2s; animation: fadein 2s;} 
-.read-only { display: none;}
+.read-only { display: none; visibility: hidden;}
+.progress { vertical-align: baseline;}
+.progress { display: -webkit-box; display: -ms-flexbox; display: flex; height: 14px; overflow: hidden; font-size: 0.75rem; background-color: #e9ecef; border-radius: 0.25rem;}
+.progress-bar { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: #fff; text-align: center; background-color: #007bff; transition: width 0.6s ease;}
+.progress-bar-info { background-color: #17caff;}
+.progress-bar-success { background-color: #4ee24e;}
+.progress-bar-warning { background-color: #ffad0e;}
+.progress-bar-danger { background-color: #f46426;}
+
 /* key frames for fadein */
 @keyframes fadein {
     from { opacity: 0; }
