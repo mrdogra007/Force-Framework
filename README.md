@@ -37,12 +37,13 @@ http://dograsweblog.com/drive/force-framework/
 * Style for unordered and ordered list
 
 ## Plugins added
-* ![Breadcrumb style modified css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
+* ![Breadcrumb style modified css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/breadcrumb-style-modified-css-plugin-force-framework)
 * ![Pagination style modified css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
-* ![Image as checkbox plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
-* ![Binary tree/ Management tree plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
-* ![Hamburger navigation plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
-* ![Side navigation plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
+* ![Image as checkbox plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/image-as-checkbox-plugin-force-framework)
+* ![Binary tree/ Management tree plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/management-tree-plugin-force-framework)
+* ![Hamburger navigation plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/pure-css-navigation-plugin-force-framework)
+* ![Side navigation plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/side-navigation-plugin-force-framework)
+* ![Custom JS slider with animated css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/custom-js-slider-with-animated-css)
 
 ### Creator: Nishant Dogra
 https://twitter.com/mrdogra007
