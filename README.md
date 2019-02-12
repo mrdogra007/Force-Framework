@@ -6,8 +6,6 @@ A lightweight Front-end Framework for UltraFast Page Load. Objective to craft th
 
 ## Now page will load instantly
 
-![Force Framework](http://cloud.dograsweblog.com/force-framework/cover-snippet.jpg)
-
 ```markdown
 A lightweight and fast HTML/CSS Framework designed for the Designers & Developers to compete with Performance.
 ```
