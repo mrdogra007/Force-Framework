@@ -1,8 +1,12 @@
 # Force Framework
 
+![Force Framework](http://cloud.dograsweblog.com/force-framework/logo-icons/120.png)
+
 A lightweight Front-end Framework for UltraFast Page Load. Objective to craft this is to build a lightweight and fast HTML/CSS Framework designed for the Designers & Developers to compete with Performance.
 
-![Force Framework](http://cloud.dograsweblog.com/force-framework/logo-icons/120.png)
+## Now page will load instantly
+
+![Force Framework](http://cloud.dograsweblog.com/force-framework//cover-snippet-dogras-weblog.jpg)
 
 ```markdown
 A lightweight and fast HTML/CSS Framework designed for the Designers & Developers to compete with Performance.
@@ -35,7 +39,7 @@ http://dograsweblog.com/drive/force-framework/
 * Style for unordered and ordered list
 
 ## Plugins added
-* Breadcrumb style modified css ![check] (https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
+* Breadcrumb style modified css ![check](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
 * Pagination style modified css
 * Image as checkbox plugin
 * Binary tree/ Management tree plugin
