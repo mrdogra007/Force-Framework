@@ -1,0 +1,21 @@
+* { color: #e3e5e7;}
+body.dark { background: #141f31; color: #e3e5e7; position: relative;}
+header, footer, .inner-container { padding: 70px 50px;}
+.container { padding: 0px 50px;} 
+.hidden {display: none;}
+
+.dogras-dropdown { display: inline-block; position: fixed; width: 50px; height: 55px; top: 40px; right: 40px; font-weight: normal; z-index: 9999;}
+.fw-button .toggle-menu { width: 50px; background: #141f31; padding: 5px; border: 2px solid #ed8300; border-radius: 15px; overflow: hidden;}
+.fw-button { display: inline-block; cursor: pointer; white-space: nowrap; overflow: hidden;}
+.fw-button:hover, .fw-button:active { transform: scale(1.05)}
+.fw-input { display: none; opacity: 0;}
+.fw-menu { position: absolute; width: 240px; top: 100%; left: -175px; border-radius: 4px; padding: 0; margin: 15px 0 0 0; background-color: #182a47; list-style-type: none; overflow: hidden;}
+.fw-input + .fw-menu { display: none;} 
+.fw-input:checked + .fw-menu { display: block;} 
+.fw-menu li { padding: 1px 20px; cursor: pointer; white-space: nowrap;}
+.fw-menu li:hover { background-color: #e0810c;}
+.fw-menu li a { color: #ffffff; display: block; margin: -10px -20px; padding: 18px 20px; text-decoration: none;}
+.fw-menu li.separator{ padding: 0; border-bottom: 5px solid #141f31; cursor: default; margin-top: -3px;}
+
+footer { background: #111b2b;}
+footer p { font-size: 16px; line-height: 1.2;}
