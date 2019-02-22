@@ -1,0 +1,31 @@
+h1 { font-size: 24px; color: #333;  margin-bottom: 20px;}
+h2 { font-size: 20px; color: #333;  margin-bottom: 20px;}
+p { font-size: 18px; font-weight: lighter; color: #676767; margin-bottom: 20px;}
+a { font-size: 18px; color: #185bda;}
+
+form { position: relative; max-width: 800px; background: #fff; margin: 40px auto 60px;}
+.label { color: #9e9e9e; font-weight: normal; font-size: 18px; border-bottom: 1px solid #e1e1e1; } 
+input[type=radio] { display: none;}
+input[type=radio]:not(checked) ~ .content { display: none;}
+input[type=radio]:checked ~ .content { display: block;}
+input[type=radio]:checked ~ .label { color: #185bda;}
+
+/* Active state and bars */
+input[type=radio]:checked + .first-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; right: 0; transition: right 20ms;} 
+input[type=radio]:not(checked) + .first-label::before { content: ''; width: 0; left: 0%; transition: left 20ms;}
+input[type=radio]:checked + .second-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; left: 0; transition: left 20ms;}
+input[type=radio]:not(checked) + .second-label::before { content: ''; width: 0; left: -100%; transition: left 20ms;}
+input[type=radio]:checked + .third-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; left: 0; transition: left 20ms;}
+input[type=radio]:not(checked) + .third-label::before { content: ''; width: 0; left: -100%; transition: left 20ms;}
+
+input[type=radio] + .first-label:hover, 
+input[type=radio] + .second-label:hover,
+input[type=radio] + .third-label:hover { color: #185bda; background: #e6e6e6;}
+
+.first-label, .second-label, .third-label { position: absolute; top: 0; padding: 12px 10px; width: 150px; text-align: center; background: #fafafa; z-index: 999;}
+.first-label { left: 0;}
+.second-label { left: 150px;}
+.third-label { left: 300px;}
+
+.content { position: relative; top: 60px; padding: 40px 20px; margin: 0 auto; box-sizing: border-box;}
+.about { margin: 0 auto; max-width: 800px; border-top: 1px solid #e1e1e1; padding: 20px;}
