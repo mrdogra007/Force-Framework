@@ -1,0 +1,45 @@
+h1 { font-size: 24px;  margin-bottom: 20px;}
+h2 { font-size: 20px;  margin-bottom: 20px;}
+p { font-size: 18px; font-weight: lighter; margin-bottom: 20px;}
+a { font-size: 18px; color: #185bda;}
+
+.wrapper { width: 100%; float: left;}
+.wrapper.dark { background: #323232; color: #ffffff;}
+form { position: relative; background: #fff; margin: 40px auto 60px;}
+.tabs-layout { width: 100%; float: left; margin: 0;}
+.label { color: #9e9e9e; font-weight: normal; font-size: 18px; border-bottom: 1px solid #e1e1e1; } 
+input[type=radio] { display: none;}
+input[type=radio]:not(checked) ~ .content { display: none;}
+input[type=radio]:checked ~ .content { display: block;}
+input[type=radio]:checked ~ .label { color: #185bda;}
+
+input[type=radio]:checked + .first-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; right: 0; transition: right 20ms;} 
+input[type=radio]:not(checked) + .first-label::before { content: ''; width: 0; left: 0%; transition: left 20ms;}
+input[type=radio]:checked + .second-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; left: 0; transition: left 20ms;}
+input[type=radio]:not(checked) + .second-label::before { content: ''; width: 0; left: -100%; transition: left 20ms;}
+input[type=radio]:checked + .third-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; left: 0; transition: left 20ms;}
+input[type=radio]:not(checked) + .third-label::before { content: ''; width: 0; left: -100%; transition: left 20ms;}
+input[type=radio]:checked + .fourth-label::before { content: ''; position: absolute; height: 2px; width: 100%; background: #185bda; bottom: -2px; left: 0; transition: left 20ms;}
+input[type=radio]:not(checked) + .fourth-label::before { content: ''; width: 0; left: -100%; transition: left 20ms;}
+
+input[type=radio] + .first-label:hover, 
+input[type=radio] + .second-label:hover,
+input[type=radio] + .third-label:hover,
+input[type=radio] + .fourth-label:hover { color: #185bda; background: #e6e6e6;}
+
+.first-label, .second-label, .third-label, .fourth-label { position: absolute; top: 0; padding: 12px 10px; width: 150px; text-align: center; background: #fafafa; z-index: 999;}
+.first-label { left: 0;}
+.second-label { left: 150px;}
+.third-label { left: 300px;}
+.fourth-label { left: 450px;}
+
+.content { position: relative; padding: 80px 20px 40px; margin: 0; box-sizing: border-box;}
+.about { margin: 0 auto; max-width: 800px; padding: 40px 20px;}
+
+@media only screen and (max-width: 768px)  {
+.first-label, .second-label, .third-label, .fourth-label { position: absolute; top: 0; padding: 12px 10px; width: 100px; text-align: center; background: #fafafa; z-index: 999;}
+.first-label { left: 0;}
+.second-label { left: 100px;}
+.third-label { left: 200px;}
+.fourth-label { left: 300px;}
+}
