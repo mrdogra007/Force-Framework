@@ -1,0 +1,38 @@
+body { font-family: Roboto, sans-serif;}
+
+h1 { margin: 40px 0 20px;}
+
+.pinned-note { position: relative; background: #f8f1c6; background: linear-gradient(#f8f1c6 50%, #f8f1c6 98%, #989898 100%); background-size: 1px 34px; border-radius: 5px; border: 1px solid #C4C296; color: #43423d; text-shadow: 0 1px 1px #ffffff; max-width: 480px; margin: 20px auto;}
+.pinned-note .nodes { background: radial-gradient(#ffffff 30%, transparent 1%) 0 0, radial-gradient(rgba(0,0,0,1) 1%, transparent 35%) 0 0px; background-size: 30px 30px; background-repeat: repeat-y; margin-left: 8px;}
+.pinned-note .no-nodes { background: none; margin-left: -20px;}
+.pinned-note .left-strip { border-left: 3px double #989898; margin-left: 40px; padding: 10px 20px 12px 20px; outline: none;}
+.pinned-heading { font-size: 20px; line-height: 32px; margin: 25px 0 10px;}
+.pinned-description { font-size: 16px; line-height: 34px; margin: 10px 0; position: relative; top: -2px;}
+.anchor-link { font-weight: bold; text-decoration: none;}
+
+.scrolling-wrapper { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding: 15px 0;}
+.article-body { display: inline-block; vertical-align: top; margin: 0 20px;}
+.article-body .pinned-note { display: inline-block; white-space: normal;}
+
+.pinit {position: absolute; right: -20px; top: -15px; width: 60px; height: 60px; background: url('push-pin.svg'); background-size: auto; background-size: cover; margin-left: -30px;}
+
+.first-pinned, .seventh-pinned { transform: rotate(2deg);}
+.second-pinned, .eighth-pinned { transform: rotate(-1deg);}
+.third-pinned, .ninth-pinned { transform: rotate(5deg);}
+.fourth-pinned, .tenth-pinned { transform: rotate(1deg);}
+.fifth-pinned, .eleventh-pinned { transform: rotate(-3deg);}
+.sixth-pinned, .twelveth-pinned { transform: rotate(1deg);}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+	background: #f6f6f6;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background: #c6c6c6;
+}
