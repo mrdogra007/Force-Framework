@@ -1,12 +1,12 @@
 # Force Framework
 
-![Force Framework](http://cloud.dograsweblog.com/force-framework/logo-icons/120.png)
+![Force Framework](https://letsforce.com/assets/logo-icons/120.png)
 
-ALightweight and Powerful - Opensource Front-end Framework (HTML/CSS). Crafted for the Developers. Create your Microsites, Landing pages, Web pages, Applications with Force Framework. Library size of Force Framework is Light weight. Featured with High performance, Accessibility, Optimized Code, onpage SEO, Best practice, Coding standards that loads with Ultra Speed.
+A Lightweight and Powerful - Opensource Front-end Framework (HTML/CSS). Crafted for the Developers. Create your Microsites, Landing pages, Web pages, Applications with Force Framework. Library size of Force Framework is Light weight. Featured with High performance, Accessibility, Optimized Code, onpage SEO, Best practice, Coding standards that loads with Ultra Speed.
 
-Library size of Force Framework is just ~35kb
+Library size of Force Framework is just ~21kb
 
-## Now page will load instantly
+## Lightweight & Powerful Framework
 
 ```markdown
 A lightweight and fast HTML/CSS Framework designed for the Designers & Developers to compete with Performance.
@@ -39,13 +39,8 @@ https://letsforce.com/
 * Style for unordered and ordered list
 
 ## Plugins added
-* ![Breadcrumb style modified css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/breadcrumb-style-modified-css-plugin-force-framework)
-* ![Pagination style modified css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins)
-* ![Image as checkbox plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/image-as-checkbox-plugin-force-framework)
-* ![Binary tree/ Management tree plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/management-tree-plugin-force-framework)
-* ![Hamburger navigation plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/pure-css-navigation-plugin-force-framework)
-* ![Side navigation plugin](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/side-navigation-plugin-force-framework)
-* ![Custom JS slider with animated css](https://github.com/mrdogra007/Force-Framework/tree/master/plugins/custom-js-slider-with-animated-css)
+* Explore the plugins and code templates for easy use
+* https://letsforce.com/code-templates
 
 ### Creator: Aakshauhini Interactive Private Limited
 https://twitter.com/mrdogra007
